@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.nav_container{
+  width: 100vw;
+  height: 60px;
+  gap: 20px;
+ 
+}
+.nav_container img{
+  width: 70px;
+  height: 60px
+}
+.font_bold{
+  font-weight: bold;
+}
+.logo{
+  margin-left: 30px;
+  
+}
+.login{
+  gap: 20px;
+  position:relative;
+  
+  
+  left: 49%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu{
+  gap: 20px;
+}
+.footer_container  img{
+  width: 70px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dis_flex{
   display: flex;
+ 
+}
+
+.flexdrectoin_cl{
   flex-direction: column;
+}
+
+.flex_center{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.gap_20px{
+  gap: 50px;
+  margin-top: 30px;
+}
+.section_container{
+  background-color: rgb(29, 29, 83);
+  color: white;
+  height: 250px;
+  
+}
+.section_container h2{
+  font-size: 50px;
+  
+}
+button{
+  background-color: green;
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section_container > button{
+  width: 145px;
+  height: 37px;
+  margin-top: 30px;
 }
